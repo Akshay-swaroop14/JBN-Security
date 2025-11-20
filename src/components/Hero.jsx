@@ -1,4 +1,4 @@
-import heroBg from '../assets/j.jfif'; // your background image
+import heroBg from '../assets/J2.jpg'; // your background image
 import logo from '../assets/logo.jpeg';
 
 const Hero = () => {
