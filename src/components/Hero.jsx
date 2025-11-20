@@ -1,4 +1,4 @@
-import heroBg from '../assets/J2.jpg'; // your background image
+import heroBg from '../assets/j.jfif'; // your background image
 import logo from '../assets/logo.jpeg';
 
 const Hero = () => {
@@ -7,17 +7,17 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="pt-24 min-h-screen relative overflow-hidden">
-      {/* Background Image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: `url(${heroBg})`,
-        }}
-      >
-        <div className="absolute inset-0 bg-black/70"></div>
-      </div>
-
+<section id="home" className="pt-24 min-h-screen relative overflow-hidden">
+  {/* Background Image */}
+  <div className="absolute inset-0">
+    <div
+      className="w-full h-full bg-cover bg-center bg-no-repeat"
+      style={{
+        backgroundImage: `url(${heroBg})`
+      }}
+    />
+    <div className="absolute inset-0 bg-black/70"></div>
+  </div>
       {/* Content */}
       <div className="relative max-w-7xl mx-auto px-6 py-20">
         <div className="flex flex-col lg:flex-row items-center justify-between">
